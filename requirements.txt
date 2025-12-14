@@ -1,0 +1,19 @@
+pandas>=2.0.0
+pdfplumber>=0.11.0
+Pillow>=10.0.0
+requests>=2.31.0
+openai>=1.40.0
+huggingface_hub>=0.24.0
+
+# OCR + PDF rendering (optional but recommended for hybrid)
+pytesseract>=0.3.10
+pdf2image>=1.17.0
+
+# XLSX + DOCX support (required for full compliance)
+openpyxl>=3.1.2
+python-docx>=1.1.2
+
+# parquet optional
+pyarrow>=16.0.0
+
+

@@ -1,0 +1,28 @@
+Content-Type: multipart/mixed; boundary="===============3129514123628131499=="
+MIME-Version: 1.0
+Subject: =?utf-8?q?Rate_Offer_=E2=80=93_Carrier_Omega_=28South_America=29?=
+From: Carrier Omega <omega.trade@examplecarriers.com>
+To: procurement@cargoo.example
+Date: Mon, 27 Oct 2025 19:30:00 +0000
+Message-ID: <176156792315.11.omega@62a34e5378af>
+
+--===============3129514123628131499==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+Dear Team,
+
+Carrier Omega Rate Submission for South America Routes:
+
+carrier	lane_id	POR	requested_POL	quoted_POL	requested_POD	quoted_POD	FND	container_type	container_count	accept_operational_requirements	accept_payment_methods	transit_time_days	sailing_frequency	of_rate_usd	free_days_origin	free_days_destination
+Carrier Omega	L023	CNSHA	CNSHA	CNSHA	BRSSZ	BRSSZ	BRSAO	40HC	20	True	True	35	Bi-weekly	4500	10	14
+Carrier Omega	L024	CNSHA	CNNGB	CNNGB	ARBUE	ARBUE	ARCOR	40HC	12	True	False	38	Bi-weekly	4800	8	12
+Carrier Omega	L025	CNSZX	CNSZX	CNSZX	CLSAI	CLSAI	CLVAP	20GP	30	False	True	32	Monthly	3200	7	10
+
+Please review and let us know your feedback.
+
+Best,
+Omega Shipping
+
+--===============3129514123628131499==--

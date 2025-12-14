@@ -1,0 +1,33 @@
+Content-Type: multipart/mixed; boundary="===============7230536504621682835=="
+MIME-Version: 1.0
+Subject: =?utf-8?q?Rate_Offer_=E2=80=93_Carrier_Kappa_=28Intra-Asia=29?=
+From: Carrier Kappa <kappa.sales@examplecarriers.com>
+To: procurement@cargoo.example
+Date: Mon, 27 Oct 2025 17:00:00 +0000
+Message-ID: <176156792313.11.kappa@62a34e5378af>
+
+--===============7230536504621682835==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+Dear Cargoo Team,
+
+Here are our rates for the Intra-Asia tender:
+
+Lane    | POL   | POD   | Type | Count | Transit | Frequency | Rate USD | FD Orig | FD Dest | Ops Req | Payment
+--------|-------|-------|------|-------|---------|-----------|----------|---------|---------|---------|--------
+L016    | CNSHA | JPYOK | 40HC | 12    | 5       | Weekly    | 1250     | 14      | 14      | Yes     | Yes
+L017    | CNSHA | KRPUS | 20GP | 20    | 3       | 2x Weekly | 680      | 10      | 10      | Yes     | Yes
+L018    | HKHKG | SGSIN | 40HC | 8     | 6       | Weekly    | 980      | 12      | 11      | Yes     | No
+L019    | TWKHH | MYKLG | 40HC | 15    | 7       | Bi-weekly | 1100     | 9       | 10      | No      | Yes
+
+POR is same as POL for all lanes.
+FND is same city as POD.
+
+Please let us know if you need any clarifications.
+
+Regards,
+Kappa Container Lines
+
+--===============7230536504621682835==--

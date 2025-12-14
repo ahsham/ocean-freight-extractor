@@ -1,0 +1,21 @@
+2025-12-14 22:32:36 - INFO - Starting processing: input=/in, output=/out
+2025-12-14 22:32:36 - INFO - Providers initialized: openai_enabled=True, vision=openai:gpt-5-mini-2025-08-07, text=openai:gpt-5-nano-2025-08-07
+2025-12-14 22:32:36 - INFO - Found 4 .eml files to process
+2025-12-14 22:32:36 - INFO - Processing: email_carrier_alpha.eml
+2025-12-14 22:32:54 - INFO -   Email body: 3 rows extracted, 3 valid (method=body_llm_universal, conf=1.00)
+2025-12-14 22:32:54 - INFO - Processing: email_carrier_beta.eml
+2025-12-14 22:32:57 - INFO -   Email body: 0 rows extracted, 0 valid (method=body_llm_universal, conf=0.00)
+2025-12-14 22:32:57 - INFO -   Attachment carrier_beta_quotes_text.pdf: 3 rows extracted, 3 valid (method=pdf_table_direct, conf=1.00)
+2025-12-14 22:32:57 - INFO - Processing: email_carrier_delta.eml
+2025-12-14 22:33:00 - INFO -   Email body: 0 rows extracted, 0 valid (method=body_llm_universal, conf=0.00)
+2025-12-14 22:33:00 - INFO -   Attachment carrier_delta_quotes.xlsx: 2 rows extracted, 2 valid (method=excel, conf=1.00)
+2025-12-14 22:33:00 - INFO - Processing: email_carrier_gamma.eml
+2025-12-14 22:33:03 - INFO -   Email body: 0 rows extracted, 0 valid (method=body_llm_universal, conf=0.00)
+2025-12-14 22:34:03 - INFO -   Attachment carrier_gamma_quotes_image.pdf: 4 rows extracted, 4 valid (method=pdf_openai_vision_md_tables, conf=1.00)
+2025-12-14 22:34:03 - INFO - Saving results: 12 normalized rows
+2025-12-14 22:34:03 - INFO - Parquet file saved successfully
+2025-12-14 22:34:03 - INFO - Building targets and drafting emails for 4 carriers
+2025-12-14 22:37:44 - INFO - Processing complete!
+2025-12-14 22:37:44 - INFO -   Valid rows: 12
+2025-12-14 22:37:44 - INFO -   Review items: 0
+2025-12-14 22:37:44 - INFO -   LLM usage: {'openai': {'calls': 4, 'input_tokens': 1365, 'output_tokens': 2781, 'estimated_cost_usd': 0.001181}, 'hf': {'calls': 1}}

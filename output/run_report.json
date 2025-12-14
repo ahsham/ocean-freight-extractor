@@ -1,0 +1,131 @@
+{
+  "started_at": "2025-12-14T22:32:36Z",
+  "openai_enabled": true,
+  "vision_provider": "openai:gpt-5-mini-2025-08-07",
+  "text_provider": "openai:gpt-5-nano-2025-08-07",
+  "llm_usage": {
+    "openai": {
+      "calls": 4,
+      "input_tokens": 1365,
+      "output_tokens": 2781,
+      "estimated_cost_usd": 0.001181
+    },
+    "hf": {
+      "calls": 1
+    }
+  },
+  "files": [
+    {
+      "file": "email_carrier_alpha.eml",
+      "carrier_guess": "Rate Offer \u2013 Carrier Alpha (Multiple Lanes)",
+      "attachments": 0,
+      "events": [
+        {
+          "stage": "email_body",
+          "rows": 3,
+          "valid_rows": 3,
+          "method": "body_llm_universal",
+          "conf": 1.0,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "file": "email_carrier_beta.eml",
+      "carrier_guess": "Rate Offer \u2013 Carrier Beta",
+      "attachments": 1,
+      "events": [
+        {
+          "stage": "email_body",
+          "rows": 0,
+          "valid_rows": 0,
+          "method": "body_llm_universal",
+          "conf": 0.0,
+          "warnings": [
+            "no_rows"
+          ]
+        },
+        {
+          "stage": "attachment",
+          "name": "carrier_beta_quotes_text.pdf",
+          "kind": "pdf",
+          "rows": 3,
+          "valid_rows": 3,
+          "method": "pdf_table_direct",
+          "conf": 1.0,
+          "warnings": [
+            "pdf_table_direct"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "email_carrier_delta.eml",
+      "carrier_guess": "Rate Offer \u2013 Carrier Delta",
+      "attachments": 1,
+      "events": [
+        {
+          "stage": "email_body",
+          "rows": 0,
+          "valid_rows": 0,
+          "method": "body_llm_universal",
+          "conf": 0.0,
+          "warnings": [
+            "no_rows"
+          ]
+        },
+        {
+          "stage": "attachment",
+          "name": "carrier_delta_quotes.xlsx",
+          "kind": "excel",
+          "rows": 2,
+          "valid_rows": 2,
+          "method": "excel",
+          "conf": 1.0,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "file": "email_carrier_gamma.eml",
+      "carrier_guess": "Rate Offer \u2013 Carrier Gamma",
+      "attachments": 1,
+      "events": [
+        {
+          "stage": "email_body",
+          "rows": 0,
+          "valid_rows": 0,
+          "method": "body_llm_universal",
+          "conf": 0.0,
+          "warnings": [
+            "no_rows"
+          ]
+        },
+        {
+          "stage": "attachment",
+          "name": "carrier_gamma_quotes_image.pdf",
+          "kind": "pdf",
+          "rows": 4,
+          "valid_rows": 4,
+          "method": "pdf_openai_vision_md_tables",
+          "conf": 1.0,
+          "warnings": [
+            "pdf_ocr_llm_failed:empty_llm_response",
+            "pdf_ocr_used",
+            "no_rows",
+            "pdf_ocr_low_confidence",
+            "pdf_vision_fallback",
+            "non_unlocode_ports=2",
+            "non_unlocode_ports=3"
+          ]
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "quotes_rows": 12,
+    "valid_rows": 12,
+    "review_items": 0
+  },
+  "finished_at": "2025-12-14T22:37:44Z"
+}

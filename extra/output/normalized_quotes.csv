@@ -1,0 +1,22 @@
+carrier,source,extraction_method,confidence,lane_id,POR,requested_POL,quoted_POL,requested_POD,quoted_POD,FND,container_type,container_count,accept_operational_requirements,accept_payment_methods,transit_time_days,sailing_frequency,of_rate_usd,free_days_origin,free_days_destination,transittimedays,ofrateusd,freedaysorigin,freedaysdestination,containercount,FD-O,FD-D
+Carrier Epsilon,/in/email_carrier_epsilon.eml::carrier_epsilon_rates.csv,csv,1.0,L007,JPYOK,JPTYO,JPTYO,USLAX,USLAX,USCHI,40HC,15,True,True,14,Weekly,4250,10,12,,,,,,,
+Carrier Epsilon,/in/email_carrier_epsilon.eml::carrier_epsilon_rates.csv,csv,1.0,L008,JPYOK,JPOSA,JPOSA,USOAK,USOAK,USSEA,20GP,22,True,False,12,Weekly,2890,8,10,,,,,,,
+Carrier Epsilon,/in/email_carrier_epsilon.eml::carrier_epsilon_rates.csv,csv,1.0,L009,KRSEL,KRPUS,KRPUS,USNYC,USNYC,USBOS,40HC,10,False,True,21,Bi-weekly,4100,7,14,,,,,,,
+Carrier Kappa,/in/email_carrier_kappa.eml,body_deterministic,1.0,L016,,CNSHA,CNSHA,JPYOK,JPYOK,,40HC,12,True,True,5,Weekly,1250,14,14,,,,,,,
+Carrier Kappa,/in/email_carrier_kappa.eml,body_deterministic,1.0,L017,,CNSHA,CNSHA,KRPUS,KRPUS,,20GP,20,True,True,3,2x Weekly,680,10,10,,,,,,,
+Carrier Kappa,/in/email_carrier_kappa.eml,body_deterministic,1.0,L018,,HKHKG,HKHKG,SGSIN,SGSIN,,40HC,8,True,False,6,Weekly,980,12,11,,,,,,,
+Carrier Kappa,/in/email_carrier_kappa.eml,body_deterministic,1.0,L019,,TWKHH,TWKHH,MYKLG,MYKLG,,40HC,15,False,True,7,Bi-weekly,1100,9,10,,,,,,,
+Carrier Lambda,/in/email_carrier_lambda.eml::carrier_lambda_quote.png,image_vision_md_to_json,1.0,Lane,,POL,POL,POD,POD,,Type,,,,Transit,,Rate,,,,,,,,,
+Carrier Lambda,/in/email_carrier_lambda.eml::carrier_lambda_quote.png,image_vision_md_to_json,1.0,L020,,INMAA,INMAA,NLRITM,NLRITM,,40HC,,,,22,,3200,,,,,,,,10.0,11.0
+Carrier Lambda,/in/email_carrier_lambda.eml::carrier_lambda_quote.png,image_vision_md_to_json,1.0,L021,,INMUN,INMUN,DEHAM,DEHAM,,40HC,,,,24,,3350,,,,,,,,9.0,12.0
+Carrier Lambda,/in/email_carrier_lambda.eml::carrier_lambda_quote.png,image_vision_md_to_json,1.0,L022,,INBOM,INBOM,GBLGP,GBLGP,,20GP,,,,26,,2100,,,,,,,,8.0,10.0
+Carrier Omega,/in/email_carrier_omega.eml,body_deterministic,1.0,L023,CNSHA,CNSHA,CNSHA,BRSSZ,BRSSZ,BRSAO,40HC,20,True,True,35,Bi-weekly,4500,10,14,,,,,,,
+Carrier Omega,/in/email_carrier_omega.eml,body_deterministic,1.0,L024,CNSHA,CNNGB,CNNGB,ARBUE,ARBUE,ARCOR,40HC,12,True,False,38,Bi-weekly,4800,8,12,,,,,,,
+Carrier Omega,/in/email_carrier_omega.eml,body_deterministic,1.0,L025,CNSZX,CNSZX,CNSZX,CLSAI,CLSAI,CLVAP,20GP,30,False,True,32,Monthly,3200,7,10,,,,,,,
+Carrier Theta,/in/email_carrier_theta.eml::carrier_theta_rates.xlsx,excel,1.0,L013,VNSGN,VNSGN,VNSGN,USNYC,USNYC,USNWK,40HC,25,True,True,23,Weekly,3980,12,14,,,,,,,
+Carrier Theta,/in/email_carrier_theta.eml::carrier_theta_rates.xlsx,excel,1.0,L014,VNHPH,VNHPH,VNHPH,USLAX,USLAX,USLGB,40HC,15,True,True,16,Weekly,3450,10,12,,,,,,,
+Carrier Theta,/in/email_carrier_theta.eml::carrier_theta_rates.xlsx,excel,1.0,L015,VNSGN,VNDAD,VNDAD,USLAX,USLAX,USSEA,20GP,40,False,True,18,Bi-weekly,2150,8,10,,,,,,,
+Carrier Zeta,/in/email_carrier_zeta.eml::carrier_zeta_proposal.docx,docx_tables_to_json,1.0,Lane,,POL,POL,POD,POD,,Container,Count,,,Transit,Frequency,Rate USD,FD Origin,FD Dest,,,,,,,
+Carrier Zeta,/in/email_carrier_zeta.eml::carrier_zeta_proposal.docx,docx_tables_to_json,1.0,L010,,SGSIN,SGSIN,NLRTM,NLRTM,,40HC,20,,,25,Weekly,3650,11,11,,,,,,,
+Carrier Zeta,/in/email_carrier_zeta.eml::carrier_zeta_proposal.docx,docx_tables_to_json,1.0,L011,,SGSIN,SGSIN,DEHAM,DEHAM,,40HC,18,,,27,Weekly,3720,10,12,,,,,,,
+Carrier Zeta,/in/email_carrier_zeta.eml::carrier_zeta_proposal.docx,docx_tables_to_json,1.0,L012,,MYKLG,MYKLG,GBLGP,GBLGP,,20GP,30,,,30,Bi-weekly,2480,9,10,,,,,,,

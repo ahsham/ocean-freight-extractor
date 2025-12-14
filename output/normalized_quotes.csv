@@ -1,0 +1,13 @@
+carrier,source,extraction_method,confidence,lane_id,POR,requested_POL,quoted_POL,requested_POD,quoted_POD,FND,container_type,container_count,accept_operational_requirements,accept_payment_methods,transit_time_days,sailing_frequency,of_rate_usd,free_days_origin,free_days_destination,transittimedays,ofrateusd,freedaysorigin,freedaysdestination,containercount
+Carrier Alpha,/in/email_carrier_alpha.eml,body_llm_universal,1.0,L001,CNHGH,CNSHA,CNSHA,NLRTM,NLRTM,BEANR,40HC,10,True,True,27,Every 10 days,3535,7,14,,,,,
+Carrier Alpha,/in/email_carrier_alpha.eml,body_llm_universal,1.0,L002,CNSHA,CNNGB,CNNGB,DEHAM,DEHAM,DEBRV,20GP,18,True,True,28,Every 10 days,2212,7,7,,,,,
+Carrier Alpha,/in/email_carrier_alpha.eml,body_llm_universal,1.0,L003,CNHKG,CNSZX,CNSZX,USLAX,USLAX,USLGB,40HC,8,True,True,20,Every 10 days,3119,14,10,,,,,
+Carrier Beta,/in/email_carrier_beta.eml::carrier_beta_quotes_text.pdf,pdf_table_direct,1.0,L002,CNSHA,CNNGB,CNNGB,DEHAM,DEHAM,DEBRV,20GP,18,True,True,29,Every 10 days,2189,14,10,,,,,
+Carrier Beta,/in/email_carrier_beta.eml::carrier_beta_quotes_text.pdf,pdf_table_direct,1.0,L004,CNGGZ,CNYTN,CNYTN,GBLGP,GBLGP,GBFXT,40HC,12,False,True,19,Bi-weekly,3383,14,14,,,,,
+Carrier Beta,/in/email_carrier_beta.eml::carrier_beta_quotes_text.pdf,pdf_table_direct,1.0,L005,MYTPP,SGSIN,SGSIN,USNYC,USNYC,USEWR,20GP,14,True,True,21,Bi-weekly,3196,10,10,,,,,
+Carrier Delta,/in/email_carrier_delta.eml::carrier_delta_quotes.xlsx,excel,1.0,L004,CNGGZ,CNYTN,CNYTN,GBLGP,GBLGP,GBFXT,40HC,12,False,True,26,Bi-weekly,3384,10,10,,,,,
+Carrier Delta,/in/email_carrier_delta.eml::carrier_delta_quotes.xlsx,excel,1.0,L006,KRSEL,KRPUS,KRINC,NLRTM,NLRTM,BEANR,40HC,6,True,True,21,Weekly,3148,10,14,,,,,
+Carrier Gamma,/in/email_carrier_gamma.eml::carrier_gamma_quotes_image.pdf,pdf_openai_vision_md_tables,1.0,L001,CNHGH,CNSHA,CNHGB,NLR TM,NLR TM,BEANR,40HC,10,True,True,37,Bi-weekly,3638,14,14,,,,,
+Carrier Gamma,/in/email_carrier_gamma.eml::carrier_gamma_quotes_image.pdf,pdf_openai_vision_md_tables,1.0,L003,CNHKG,CNSZX,CNYTN,USLAX,USLAX,USLGB,40HC,8,True,True,30,Bi-weekly,3243,10,7,,,,,
+Carrier Gamma,/in/email_carrier_gamma.eml::carrier_gamma_quotes_image.pdf,pdf_openai_vision_md_tables,1.0,L005,MYTPP,SGSIN,SGSIN,USNYC,USNYC,USEWR,20GP,14,False,False,32,Every 10 days,3301,14,7,,,,,
+Carrier Gamma,/in/email_carrier_gamma.eml::carrier_gamma_quotes_image.pdf,pdf_openai_vision_md_tables,1.0,L006,KRESEL,KRPUS,KRPUS,NLR TM,NLR TM,BEANR,40HC,6,True,True,20,Every 10 days,3153,10,10,,,,,

@@ -1,0 +1,69 @@
+Subject: Rate Offer =?utf-8?b?4oCT?= Carrier Alpha (Multiple Lanes)
+From: Carrier Alpha <alpha.sales@examplecarriers.com>
+To: procurement@cargoo.example
+Date: Mon, 27 Oct 2025 12:25:23 +0000
+Message-ID: <176156792308.11.5278821858086344357@62a34e5378af>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Team
+
+Below are the offers:
+
+---
+carrier: Carrier Alpha
+lane_id: L001
+POR: CNHGH
+requested_POL: CNSHA
+quoted_POL: CNSHA
+requested_POD: NLRTM
+quoted_POD: NLRTM
+FND: BEANR
+container_type: 40HC
+container_count: 10
+accept_operational_requirements: True
+accept_payment_methods: True
+transit_time_days: 27
+sailing_frequency: Every 10 days
+of_rate_usd: 3535
+free_days_origin: 7
+free_days_destination: 14
+---
+carrier: Carrier Alpha
+lane_id: L002
+POR: CNSHA
+requested_POL: CNNGB
+quoted_POL: CNNGB
+requested_POD: DEHAM
+quoted_POD: DEHAM
+FND: DEBRV
+container_type: 20GP
+container_count: 18
+accept_operational_requirements: True
+accept_payment_methods: True
+transit_time_days: 28
+sailing_frequency: Every 10 days
+of_rate_usd: 2212
+free_days_origin: 7
+free_days_destination: 7
+---
+carrier: Carrier Alpha
+lane_id: L003
+POR: CNHKG
+requested_POL: CNSZX
+quoted_POL: CNSZX
+requested_POD: USLAX
+quoted_POD: USLAX
+FND: USLGB
+container_type: 40HC
+container_count: 8
+accept_operational_requirements: True
+accept_payment_methods: True
+transit_time_days: 20
+sailing_frequency: Every 10 days
+of_rate_usd: 3119
+free_days_origin: 14
+free_days_destination: 10
+
+Regards, Carrier Alpha Pricing

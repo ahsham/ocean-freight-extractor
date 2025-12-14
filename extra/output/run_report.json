@@ -1,0 +1,178 @@
+{
+  "started_at": "2025-12-14T22:39:00Z",
+  "openai_enabled": true,
+  "vision_provider": "openai:gpt-5-mini-2025-08-07",
+  "text_provider": "openai:gpt-5-nano-2025-08-07",
+  "llm_usage": {
+    "openai": {
+      "calls": 5,
+      "input_tokens": 1483,
+      "output_tokens": 3443,
+      "estimated_cost_usd": 0.001451
+    },
+    "hf": {
+      "calls": 1
+    }
+  },
+  "files": [
+    {
+      "file": "email_carrier_epsilon.eml",
+      "carrier_guess": "Rate Offer \u2013 Carrier Epsilon (Asia-Americas)",
+      "attachments": 1,
+      "events": [
+        {
+          "stage": "email_body",
+          "rows": 0,
+          "valid_rows": 0,
+          "method": "body_llm_universal",
+          "conf": 0.0,
+          "warnings": [
+            "no_rows"
+          ]
+        },
+        {
+          "stage": "attachment",
+          "name": "carrier_epsilon_rates.csv",
+          "kind": "csv",
+          "rows": 3,
+          "valid_rows": 3,
+          "method": "csv",
+          "conf": 1.0,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "file": "email_carrier_kappa.eml",
+      "carrier_guess": "Rate Offer \u2013 Carrier Kappa (Intra-Asia)",
+      "attachments": 0,
+      "events": [
+        {
+          "stage": "email_body",
+          "rows": 4,
+          "valid_rows": 4,
+          "method": "body_deterministic",
+          "conf": 1.0,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "file": "email_carrier_lambda.eml",
+      "carrier_guess": "Rate Offer \u2013 Carrier Lambda (India to Europe)",
+      "attachments": 1,
+      "events": [
+        {
+          "stage": "email_body",
+          "rows": 0,
+          "valid_rows": 0,
+          "method": "body_llm_universal",
+          "conf": 0.0,
+          "warnings": [
+            "no_rows"
+          ]
+        },
+        {
+          "stage": "attachment",
+          "name": "carrier_lambda_quote.png",
+          "kind": "image",
+          "rows": 4,
+          "valid_rows": 4,
+          "method": "image_vision_md_to_json",
+          "conf": 1.0,
+          "warnings": [
+            "image_ocr_used",
+            "low_confidence=0.00",
+            "image_ocr_low_confidence",
+            "image_vision_used",
+            "low_confidence=0.00",
+            "image_vision_low_confidence",
+            "non_unlocode_ports=4",
+            "non_unlocode_ports=2"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "email_carrier_omega.eml",
+      "carrier_guess": "Rate Offer \u2013 Carrier Omega (South America)",
+      "attachments": 0,
+      "events": [
+        {
+          "stage": "email_body",
+          "rows": 3,
+          "valid_rows": 3,
+          "method": "body_deterministic",
+          "conf": 1.0,
+          "warnings": [
+            "body_low_confidence"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "email_carrier_theta.eml",
+      "carrier_guess": "Rate Offer \u2013 Carrier Theta (Vietnam Routes)",
+      "attachments": 1,
+      "events": [
+        {
+          "stage": "email_body",
+          "rows": 0,
+          "valid_rows": 0,
+          "method": "body_llm_universal",
+          "conf": 0.0,
+          "warnings": [
+            "no_rows"
+          ]
+        },
+        {
+          "stage": "attachment",
+          "name": "carrier_theta_rates.xlsx",
+          "kind": "excel",
+          "rows": 3,
+          "valid_rows": 3,
+          "method": "excel",
+          "conf": 1.0,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "file": "email_carrier_zeta.eml",
+      "carrier_guess": "Rate Offer \u2013 Carrier Zeta (SE Asia to Europe)",
+      "attachments": 1,
+      "events": [
+        {
+          "stage": "email_body",
+          "rows": 0,
+          "valid_rows": 0,
+          "method": "body_llm_universal",
+          "conf": 0.0,
+          "warnings": [
+            "no_rows"
+          ]
+        },
+        {
+          "stage": "attachment",
+          "name": "carrier_zeta_proposal.docx",
+          "kind": "docx",
+          "rows": 4,
+          "valid_rows": 4,
+          "method": "docx_tables_to_json",
+          "conf": 1.0,
+          "warnings": [
+            "docx_markdown",
+            "low_confidence=0.00",
+            "non_unlocode_ports=4"
+          ]
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "quotes_rows": 21,
+    "valid_rows": 21,
+    "review_items": 0
+  },
+  "finished_at": "2025-12-14T22:44:26Z"
+}

@@ -1,0 +1,37 @@
+Content-Type: multipart/mixed; boundary="===============0207040212532515425=="
+MIME-Version: 1.0
+Subject: =?utf-8?q?Rate_Offer_=E2=80=93_Carrier_Epsilon_=28Asia-Americas=29?=
+From: Carrier Epsilon <epsilon.rates@examplecarriers.com>
+To: procurement@cargoo.example
+Date: Mon, 27 Oct 2025 14:30:00 +0000
+Message-ID: <176156792310.11.epsilon@62a34e5378af>
+
+--===============0207040212532515425==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+Dear Procurement Team,
+
+Please find our competitive rates for Asia-Americas lanes attached in CSV format.
+
+Best regards,
+Carrier Epsilon Commercial Team
+--===============0207040212532515425==
+Content-Type: text/csv
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="carrier_epsilon_rates.csv"
+
+Y2FycmllcixsYW5lX2lkLFBPUixyZXF1ZXN0ZWRfUE9MLHF1b3RlZF9QT0wscmVxdWVzdGVkX1BP
+RCxxdW90ZWRfUE9ELEZORCxjb250YWluZXJfdHlwZSxjb250YWluZXJfY291bnQsYWNjZXB0X29w
+ZXJhdGlvbmFsX3JlcXVpcmVtZW50cyxhY2NlcHRfcGF5bWVudF9tZXRob2RzLHRyYW5zaXRfdGlt
+ZV9kYXlzLHNhaWxpbmdfZnJlcXVlbmN5LG9mX3JhdGVfdXNkLGZyZWVfZGF5c19vcmlnaW4sZnJl
+ZV9kYXlzX2Rlc3RpbmF0aW9uCkNhcnJpZXIgRXBzaWxvbixMMDA3LEpQWU9LLEpQVFlPLEpQVFlP
+LFVTTEFYLFVTTEFYLFVTQ0hJLDQwSEMsMTUsWWVzLFllcywxNCxXZWVrbHksNDI1MCwxMCwxMgpD
+YXJyaWVyIEVwc2lsb24sTDAwOCxKUFlPSyxKUE9TQSxKUE9TQSxVU09BSyxVU09BSyxVU1NFQSwy
+MEdQLDIyLFllcyxObywxMixXZWVrbHksMjg5MCw4LDEwCkNhcnJpZXIgRXBzaWxvbixMMDA5LEtS
+U0VMLEtSUFVTLEtSUFVTLFVTTllDLFVTTllDLFVTQk9TLDQwSEMsMTAsTm8sWWVzLDIxLEJpLXdl
+ZWtseSw0MTAwLDcsMTQK
+
+--===============0207040212532515425==--
